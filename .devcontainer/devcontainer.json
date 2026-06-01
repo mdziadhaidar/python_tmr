@@ -1,10 +1,4 @@
 {
     "name": "python_tmr",
-    "image": "mcr.microsoft.com/devcontainers/python:3.13-bookworm",
-    "features": {
-        "ghcr.io/rocker-org/devcontainer-features/quarto-cli:latest": {
-            "version": "latest"
-        }
-    },
-    "postCreateCommand": "zsh ./.devcontainer/post_create.sh"
+    "image": "mcr.microsoft.com/devcontainers/python:3-3.13-trixie"
 }
